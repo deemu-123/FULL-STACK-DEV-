@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333333;
+}
+
+/* Header - Flexbox */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:lavender;
+    color:black;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:BLACK;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:black;
+}
+
+/* Main Layout - CSS Grid */
+.container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    padding:0px;
+}
+
+/* Card */
+.card{
+    background:whitesmoke;
+    padding:20px;
+    border-radius:16px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Projects - CSS Grid */
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    margin-top:15px;
+}
+
+.project{
+    background:rgb(42, 81, 165);
+    color:black;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    background:BLACK;
+    color:WHITE;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* Responsive */
+@media (max-width:768px){
+    header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+style.css
+Displaying index.html.
