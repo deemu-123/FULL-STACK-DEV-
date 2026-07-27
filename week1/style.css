@@ -44,11 +44,20 @@ nav a:hover{
 }
 
 /* Card */
+/* Card */
 .card{
-    background:whitesmoke;
-    padding:20px;
-    border-radius:16px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    background: white;
+    border: 2px solid #7c3aed;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
 }
 
 /* Projects - CSS Grid */
