@@ -1,0 +1,24 @@
+HTML :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+        <div class="Quiz-Container">
+            <h2>JAVASCRIPT QUIZ</h2>
+            <div id="timer">time:30</div>
+            <h3 id="question"></h3>
+            <div id="options"></div>
+            <button onclick="NextQuestion()">Next</button>
+            <h3 id="result"></h3>
+            </div>
+<script src="script.js"></script>
+            
+      
+</body>
+</html>
