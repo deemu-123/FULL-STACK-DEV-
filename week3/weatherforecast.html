@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> WEATHER FORECASTING</title>
+<link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+<div class="card">
+  <h1>Weather Forecast</h1>
+  <input type="text" id="cityInput" placeholder="Enter city (e.g. Tokyo, London)" />
+  <button onclick="searchCity()">Search</button>
+  <button onclick="useMyLocation()">📍 My Location</button>
+
+  <div id="city">--</div>
+  <div id="temp">--°C</div>
+  <div id="desc">--</div>
+
+  <div class="details">
+    <div>FEELS<span id="feels">--</span></div>
+    <div>HUMIDITY <span id="humidity">--</span></div>
+    <div>WIND <span id="wind">--</span></div>
+  </div>
+
+  <div id="status"></div>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
